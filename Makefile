@@ -1,7 +1,7 @@
 #Makefile
 
-gendiff_help:
-	poetry run gendiff -h
+install:
+	poetry install
 
 build:
 	poetry build

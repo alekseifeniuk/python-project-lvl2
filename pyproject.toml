@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.2.0"
+version = "0.3.0"
 description = ""
 authors = ["alexeyf  <Ffl.B-Unit@mail.ru>"]
 packages = [
@@ -11,13 +11,14 @@ packages = [
 gendiff = "gendiff.scripts.gendiff:main"
 
 [tool.poetry.dependencies]
-python = "^3.10"
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
 pre-commit = "^2.19.0"
 flake8 = "^4.0.1"
 black = "^22.3.0"
 pytest = "^7.1.2"
-
-[tool.poetry.dev-dependencies]
+mypy = "^0.960"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
